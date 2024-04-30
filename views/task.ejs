@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/task.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="/create" method="post">
+        <div>
+            <label for="input1">Title:</label>
+            <input type="text" id="input1" name="input1" placeholder="Write Your Title Here.">
+        </div>
+        <div>
+            <label for="task_area">Task area:</label>
+            <textarea id="task_area" name="task_area" rows="4" placeholder="Write Your Task Description Here."></textarea>
+        </div>
+        <button type="submit">Create Task</button>
+      
+    </form>
+</body>
+</html>
